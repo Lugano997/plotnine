@@ -1,4 +1,5 @@
 from .theme import theme
+from .theme_pycharm import theme_pycharm
 from .theme_538 import theme_538
 from .theme_bw import theme_bw
 from .theme_classic import theme_classic
@@ -16,7 +17,7 @@ from .elements import (element_line, element_rect,
                        element_text, element_blank)
 
 
-__all__ = ['theme', 'theme_538', 'theme_bw', 'theme_classic',
+__all__ = ['theme', 'theme_pycharm','theme_538', 'theme_bw', 'theme_classic',
            'theme_dark', 'theme_gray', 'theme_grey',
            'theme_light', 'theme_linedraw',
            'theme_matplotlib', 'theme_minimal',
